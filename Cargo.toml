@@ -23,18 +23,18 @@ stellar-xdr = { version = "=21.2.0", features = ["curr", "std", "serde", "base64
 
 termcolor = "1.1.3"
 termcolor_output = "1.0.1"
-clap = { version = "4.1.8", features = ["derive"] }
-serde_json = "1.0.82"
-serde-aux = "4.1.2"
-itertools = "0.10.0"
+clap = { version = "4.5.9", features = ["derive"] }
+serde_json = "1.0.109"
+serde-aux = "4.5.0"
+itertools = "0.13.0"
 hex = "0.4.3"
 thiserror = "1.0.46"
-serde = "1.0.82"
-tokio = "1.28.1"
+serde = "1.0.193"
+tokio = "1.38.1"
 sha2 = "0.10.7"
 tracing = "0.1.40"
 
 # networking
-jsonrpsee-http-client = "0.20.1"
-jsonrpsee-core = "0.20.1"
-http = "1.0.0"
+jsonrpsee-http-client = "0.22.5"
+jsonrpsee-core = "0.22.5"
+http = "1.1.0"
